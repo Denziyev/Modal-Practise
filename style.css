@@ -1,0 +1,35 @@
+body{ 
+    height: 600px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#Modal-container{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.57);
+   
+}
+
+#Modal{
+    width: 70%;
+    height: 70%;
+    background-color: red;
+    
+}
+
+#closebtn{
+    width: 30px;
+    height: 30px;
+    float: right;
+}
+
+.hide{
+    display: none;
+}
